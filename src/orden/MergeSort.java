@@ -1,6 +1,10 @@
 package orden;
 
 public class MergeSort {
+    
+    /** 
+     * @param arr
+     */
     public static void mergeSort(int[] arr) {
         if (arr.length <= 1) {
             return;

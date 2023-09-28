@@ -1,6 +1,10 @@
 package orden.util;
 
 public class Texto {
+    
+    /** 
+     * @return String
+     */
     public String introducao(){
         return "\n\n\n--------------------------------------------"
                 +"\n* Criado por Rodrigo-RRD"

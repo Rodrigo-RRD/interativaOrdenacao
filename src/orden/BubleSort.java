@@ -2,6 +2,10 @@ package orden;
 
 public class BubleSort {
 
+	
+	/** 
+	 * @param vet
+	 */
 	public void bubleSort(int[] vet) {
 		int aux = 0;
 		for (int i = 0; i < vet.length; i++) {

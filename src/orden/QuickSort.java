@@ -1,6 +1,13 @@
 package orden;
 
 public class QuickSort {
+    
+    /** 
+     * @param arr[]
+     * @param low
+     * @param high
+     * @return int
+     */
     /* passa o array inteiro, inteiro de baixo e o inteiro de cima */
     public int partition(int arr[], int low, int high) {
         int pivot = arr[high];

@@ -18,6 +18,10 @@ public class Vetor {
         }
     }
 
+    
+    /** 
+     * @return int[]
+     */
     public int[] getValorVetor() {
         return this.valorVetor;
     }

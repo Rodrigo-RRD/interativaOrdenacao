@@ -1,6 +1,10 @@
 package orden;
 
 public class HeapSort {
+    
+    /** 
+     * @param arr[]
+     */
     public static void heapSort(int arr[]) {
         int n = arr.length;
         // Construir o heap (reorganizar array)
