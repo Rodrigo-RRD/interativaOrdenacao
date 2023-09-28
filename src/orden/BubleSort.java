@@ -1,0 +1,17 @@
+package orden;
+
+public class BubleSort {
+
+	public void bubleSort(int[] vet) {
+		int aux = 0;
+		for (int i = 0; i < vet.length; i++) {
+			for (int j = 0; j < 4; j++) {
+				if (vet[j] > vet[j + 1]) {
+					aux = vet[j];
+					vet[j] = vet[j + 1];
+					vet[j + 1] = aux;
+				}
+			}
+		}
+	}
+}
