@@ -5,7 +5,7 @@ public class MergeSort {
     /** 
      * @param arr
      */
-    public static void mergeSort(int[] arr) {
+    public void mergeSort(int[] arr) {
         if (arr.length <= 1) {
             return;
         }
@@ -24,6 +24,12 @@ public class MergeSort {
         merge(arr, metadeEsquerda, metadeDireita);
     }
 
+    
+    /** 
+     * @param arr
+     * @param metadeEsquerda
+     * @param metadeDireita
+     */
     private static void merge(int[] arr, int[] metadeEsquerda, int[] metadeDireita) {
         int i = 0, j = 0, k = 0;
         while (i < metadeEsquerda.length && j < metadeDireita.length) {

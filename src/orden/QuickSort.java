@@ -26,6 +26,12 @@ public class QuickSort {
         return i + 1;
     }
 
+    
+    /** 
+     * @param arr[]
+     * @param low
+     * @param high
+     */
     public void quickSort(int arr[], int low, int high) {
         if (low < high) {
             int pi = partition(arr, low, high);

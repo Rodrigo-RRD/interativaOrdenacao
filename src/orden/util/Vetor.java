@@ -9,7 +9,7 @@ public class Vetor {
 
     public void inserirVetor() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Insira o tamanho do vetor que seja maior que 4: ");
+        System.out.println("Insira o tamanho do vetor: ");
         tamanho = sc.nextInt();
         valorVetor = new int[tamanho];
         for (int i = 0; i < valorVetor.length; i++) {
@@ -26,6 +26,10 @@ public class Vetor {
         return this.valorVetor;
     }
 
+    
+    /** 
+     * @return int
+     */
     public int getTamanho() {
         return this.tamanho;
     }

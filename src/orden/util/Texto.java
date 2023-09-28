@@ -12,6 +12,10 @@ public class Texto {
                 +"\n* Orientador: Ricardo"
                 +"\n------------METODOS DE ORDENACAO------------\n";
     }
+    
+    /** 
+     * @return String
+     */
     public String metodoUsado(){
         return "\n* Qual o metodo deseja utilizar para ordenar?"
                 +"\n--------------------------------------------"

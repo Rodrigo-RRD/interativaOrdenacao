@@ -5,7 +5,7 @@ public class HeapSort {
     /** 
      * @param arr[]
      */
-    public static void heapSort(int arr[]) {
+    public void heapSort(int arr[]) {
         int n = arr.length;
         // Construir o heap (reorganizar array)
         for (int i = n / 2 - 1; i >= 0; i--) {
@@ -22,6 +22,12 @@ public class HeapSort {
         }
     }
 
+    
+    /** 
+     * @param arr[]
+     * @param n
+     * @param i
+     */
     public static void heapify(int arr[], int n, int i) {
         int largest = i;
         int left = 2 * i + 1;
